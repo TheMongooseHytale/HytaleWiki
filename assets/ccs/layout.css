@@ -1,0 +1,58 @@
+/* FONT (Hebden Incised style substitute) */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    background: var(--bg);
+    color: var(--text);
+}
+
+#sidebar {
+    width: 260px;
+    background: var(--sidebar);
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+#logo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#sidebar a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+#sidebar a.active {
+    font-weight: bold;
+}
+
+main {
+    margin-left: 280px;
+    padding: 20px;
+    max-width: 900px;
+}
+
+
+/* ========================= */
+/* assets/css/theme.css      */
+/* ========================= */
+
+:root {
+    --bg: #0d1b2a;
+    --text: #ffffff;
+    --sidebar: #0a1622;
+    --link: #d4af37;
+}
+
+.light-theme {
+    --bg: #e4e4e4;
+    --text: #000000;
+    --sidebar: #ffffff;
+    --link: #0a3d62;
+}
