@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hytale Fan Wiki</title>
+
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <script src="assets/js/editing.js" defer></script>
+</head>
+<body>
+    <div id="sidebar">
+        <img src="assets/img/Hytale.png" id="logo" />
+        <h2>Hytale Wiki</h2>
+        <input type="text" id="search" placeholder="Search..." onkeyup="searchPages()" />
+
+        <ul>
+            <li><a href="wiki/lore.html">Lore</a></li>
+            <li><a href="wiki/npcs.html">NPCs</a></li>
+            <li><a href="wiki/creatures.html">Creatures</a></li>
+            <li><a href="wiki/blocks.html">Blocks</a></li>
+            <li><a href="wiki/crafting.html">Crafting</a></li>
+            <li><a href="wiki/biomes.html">Biomes</a></li>
+            <li><a href="wiki/zones.html">Zones</a></li>
+            <li><a href="wiki/quests.html">Quests</a></li>
+            <li><a href="wiki/servers.html">Servers</a></li>
+            <li><a href="wiki/modding.html">Modding Tools</a></li>
+            <li><a href="wiki/devupdates.html">Dev Updates</a></li>
+            <li><a href="wiki/fanart.html">Fan Art</a></li>
+        </ul>
+
+        <button id="contributeBtn" onclick="startEditing()">Contribute</button>
+        <button id="themeToggle" onclick="toggleTheme()">Toggle Theme</button>
+    </div>
+
+    <main>
+        <h1>Welcome to the Hytale Fan Wiki</h1>
+        <p>This wiki is under construction. Select a category from the sidebar to begin.</p>
+    </main>
+</body>
+</html>
